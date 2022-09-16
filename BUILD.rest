@@ -108,6 +108,58 @@ Contributing
 Fork and send a pull request! To enhance the possibility of getting the pull
 request merged, read guidelines below.
 
+1. Something similar to SeleniumLibrary or Robotframework projects
+
+
+2. We have two Contributing profiles:
+    1. The ``user/tester`` that can report Issues on tracker. 
+    2. ``developer`` who wants to send code.
+    
+    
+3. The self learning flow is enough. 
+    Reading the Wiki, and running the Demo (because allows to see and change the code).
+    
+
+4. There is basic structure a user must know. The App loop, the Frame, and messages/events.
+
+
+5. There is a nice Elements and Events inspector that helps to see the App running mechanics (there should be somewhere a diagram of the structure of a wxPython/wxWidgets app)
+
+
+6. On our CONTRIBUTING doc, we should have links to the tutorials we think good.
+
+
+7. Sonar Lint and PyCharm suggestions recommended for code style, PEP8 or flake8. 
+
+
+8. The repository is not checking with CI at this time but the maintainers are considering adding this in the near future using Travis or GitActions.
+
+
+*Note* : RIDE currently supports Python 3.6 & 3.7. 3.8 is not supported.
+
+
+9. Git: developers should create a branch to work on and not work on master. There is no specific guidance regarding branch naming although a short name describing the feature is commonly used.
+
+
+10. Always create a branch (topic/feature branch) for the changes to be done. 
+
+
+11. The commits should be short changes, and not to many files at same time.
+
+
+12. ``wxPython`` has long functions names plus arguments, and they need to be split. Maximum line length of 90 characters is proposed.
+
+
+13. Black Code formatter may be taken into use in the future so consider complying with Black guidelines. 
+
+
+14. Exceptions are max line length and string delimiters (by default Black suggests double quote always).
+
+
+15. Mention Wish List: https://github.com/robotframework/RIDE/wiki/Wish-List (Check we have GitHub issues for all of these as some contributors may only browse the issues looking for something to help with).
+
+
+16. The Project (Kanban board) was activated, and ``developers`` should look at it to know what is going on.
 
 Coding guidelines
 =================
