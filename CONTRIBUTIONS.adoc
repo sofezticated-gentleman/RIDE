@@ -87,8 +87,6 @@ https://github.com/robotframework/RIDE/issues?q=is%3Aopen+is%3Aissue+label%3A%22
   internals and are generally easy to implement or fix. Thus these
   issues are especially good for new contributors.
 
-  
-https://github.com/robotframework/robotframework/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 
 `help wanted`::
   These issues require external help to get implemented or fixed.
