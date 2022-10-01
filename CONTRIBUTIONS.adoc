@@ -115,7 +115,7 @@ plan to work on multiple pull requests at the same time.
 
 ==== General guidelines
 
-Robot Framework uses the general Python code conventions defined in
+RIDE uses the general Python code conventions defined in
 https://www.python.org/dev/peps/pep-0008/[PEP-8]. In addition to that,
 we try to write
 http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html[idiomatic
@@ -267,3 +267,6 @@ your name to the release notes, when next release is made.
 Conflicts can occur if there are new changes to the master that touch
 the same code as your changes. In that case you should
 `sync your fork` and `resolve conflicts` to allow for an easy merge.
+
+
+==== For more info you can read `README.adoc`
